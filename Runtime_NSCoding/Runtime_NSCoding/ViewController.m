@@ -9,7 +9,10 @@
 
 /**
  *
- * 在我们日常的归档存储的时候,需要在实体文件中实现NSCoding代理协议,然后在.m文件中实现  encodeWithCoder: / initWithCoder: 这两个方法.
+ * 在我们日常的归档存储的时候,需要在实体文件中实现NSCoding代理协议,然后在.m文件中实现  encodeWithCoder: / initWithCoder: 这两个方法.但是你考虑过没有,当我们模型有100个属性的时候,你依然要一个一个添加属性名字,实现归档解档方法吗?这个使用,使用runtime
+ *
+ *
+ 
  * 在我们的项目中,已经对NSCoing的归档和接档的两个方法封装到了分类中,你只需要加载头文件和写入宏就可以了
  * 需要注意的是,我们一般实现的模型都是继承NSObject的,但是比较另类的(奇葩的)如果你的模型是继承了UIView的话,使用分类,直接使用宏的话会有问题. 现在我测试的解决办法,就是抛开分类方法,直接在项目中实现归档和解档方法
  * 而且,我们在继承UIView的时候实现NSCoding,在if语句判断的时候,if(self = [super initWithCode:aDcoder]);但是如果你是继承的NSObject实现的NSCoing代理,那么是 if(self = [super init]).这个不知道大家有知道为什么的没有
