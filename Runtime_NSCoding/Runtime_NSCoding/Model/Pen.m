@@ -11,6 +11,7 @@
 
 @implementation Pen
 
+//这个方法是告诉那些属性不需要进行归档
 //-(NSArray *)ignoredNames{
 //    return @[@""];
 //}
