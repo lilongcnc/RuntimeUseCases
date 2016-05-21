@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "46C45416F8BFBC3794F6518FF7D68BA9DDA1C35E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "46C45416F8BFBC3794F6518FF7D68BA9DDA1C35E" : 0,
+    "E955CF6293378C90EB78E5A094E275F3212B559C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3774E0CC-AAC1-4997-8524-CF751CE32AEC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "46C45416F8BFBC3794F6518FF7D68BA9DDA1C35E" : "RuntimeUseCases\/",
+    "E955CF6293378C90EB78E5A094E275F3212B559C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Runtime_ReplaceSystemMethod",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Runtime_ReplaceSystemMethod\/Runtime_ReplaceSystemMethod.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lilongcnc\/RuntimeUseCases.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "46C45416F8BFBC3794F6518FF7D68BA9DDA1C35E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lilongcnc\/TestDemo0322.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E955CF6293378C90EB78E5A094E275F3212B559C"
+    }
+  ]
+}
