@@ -14,7 +14,7 @@
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Runtime_Runtime_ReplaceSystemMethod2_1",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Runtime_Runtime_ReplaceSystemMethod2_1\/Runtime_Runtime_ReplaceSystemMethod2_1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Runtime_ReplaceSystemMethod2_1\/Runtime_Runtime_ReplaceSystemMethod2_1.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lilongcnc\/RuntimeUseCases.git",

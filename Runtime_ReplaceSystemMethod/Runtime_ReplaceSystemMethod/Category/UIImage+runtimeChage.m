@@ -18,8 +18,6 @@
     Method m2 = class_getClassMethod([UIImage class], @selector(ll_imageName:));
     //开始交换方法实现
     method_exchangeImplementations(m1, m2);
-    
-    
 }
 
 #pragma mark ================ 根据系统版本不同替换系统方法 ================

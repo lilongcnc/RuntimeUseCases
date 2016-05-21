@@ -23,7 +23,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"========================== 替换图片方法 ==================================");
     
     NSLog(@"%s  %@",__FUNCTION__,[LL_UIImage ll_imageName]);
 }

@@ -70,7 +70,7 @@
     });
 }
 
-#pragma mark ================ 根据系统版本不同替换系统方法 ================
+
 + (NSString *)ll_imageName{
     double version = [[UIDevice currentDevice].systemVersion doubleValue];
     NSLog(@"%f",version);
